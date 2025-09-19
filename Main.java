@@ -17,13 +17,14 @@ public class Main {
       // Create variables for each placeholder word
       String emotion1 = "happy";
       String pet = "dog";
-      String verbPastTense = "kissed";
+      String verbPastTense1 = "kissed";
       String adverb = "excitedly";
+      String verbPastTense2 = "made";
 
       // Print your story line by line
       System.out.println("I woke up feeling " + emotion + " today.");
-      System.out.println("My " + pet + " " + verbPastTense + " my face");
-      System.out.println()
+      System.out.println("My " + pet + " " + verbPastTense + " my face" + adverb);
+      System.out.println("")
 
    }
 }
