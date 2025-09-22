@@ -15,16 +15,21 @@ public class Main {
       System.out.println("Welcome, " + player);
       
       // Create variables for each placeholder word
-      String emotion1 = "happy";
+      System.out.println("Enter an emotion: ");
+      String emotion1 = "happy"; // REPLACED literal value
       String pet = "dog";
       String verbPastTense1 = "kissed";
-      String adverb = "excitedly";
-      String verbPastTense2 = "made";
+      String adverb1 = "excitedly";
+      String verbPastTense2 = "ate";
+      String adverb2 = "quickly";
+      String verbPastTense3 = "unloaded";
+
 
       // Print your story line by line
-      System.out.println("I woke up feeling " + emotion + " today.");
-      System.out.println("My " + pet + " " + verbPastTense + " my face" + adverb);
-      System.out.println("")
+      System.out.println("I woke up feeling " + emotion1 + " today.");
+      System.out.println("My " + pet + " " + verbPastTense1 + " my face" + adverb1);
+      System.out.println("I " + adverb2 + verbPastTense2 + "my breakfast and" + verbPastTense3 + " the dishwasher");
+
 
    }
 }
